@@ -17,3 +17,27 @@ O float é mais complicado, ele empurra o elemento para um dos lados (left | rig
 <h3><strong>display: flex</strong></h3>
 
 O display: flex veio com o intuito de facilitar nossa vida nesses aspectos de posicionamento. Ele permite os elementos ficarem um do lado do outro, permite espaçar os elementos de forma mais intuitiva e sem ter que fazer cálculos. Além disso ele também permite alinhar os elementos verticalmente de forma fácil.
+
+
+<br>
+<h2>Propriedades aplicadas ao container e aos flex items</h2>
+
+<h3>container:</h3>
+
+- display: flex
+- flex-direction
+- justify-content
+- flex-wrap
+- flex-flow
+- align-items
+- align-content
+- flex item:
+
+<h3>flex item:</h3>
+
+- order
+- flex-grow
+- flex-shrink
+- flex-basis
+- flex
+- align-self
