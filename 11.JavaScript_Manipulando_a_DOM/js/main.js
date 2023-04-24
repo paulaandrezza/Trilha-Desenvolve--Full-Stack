@@ -50,3 +50,9 @@ const atualizaEstatisticas = (peca) => {
     elemento.textContent = parseInt(elemento.textContent) + pecas[peca][elemento.dataset.estatistica]
   })
 }
+
+const colors = document.querySelectorAll('[data-color]')
+colors.forEach((elemento) => {
+  elemento.style.background = elemento.dataset.color
+  elemento.addEventListener('click', () => document.querySelector(".robo").src="img/Robotron 2000 - " + elemento.dataset.color + ".png")
+})
